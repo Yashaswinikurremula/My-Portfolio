@@ -26,6 +26,20 @@ body.active{
     --text-color: white;
     --bg-color: black;
 
+.project-box:hover{
+    animation: box-size 1s 0.2s;
+}
+    
+@keyframes box-size{
+    0%{
+        transform: scale(1);
+
+    }
+
+    100%{
+        transform: scale(1.2);
+    }
+}
 
 }
 body{
